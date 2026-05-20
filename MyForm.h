@@ -66,6 +66,34 @@ namespace p5 {
 	private: System::Windows::Forms::ToolStripMenuItem^ ïàíåëüToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ ðÿäîêÑòàíóToolStripMenuItem;
 	private: System::Windows::Forms::ToolStripMenuItem^ ïàíåë³²íñòðóìåíò³âToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ôàéëToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ ñòâîðèòèToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ â³äêðèòèToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ çáåðåãòèToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ çáåðåãòèßêToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ äðóêToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ïðàâêàToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ êîï³þâàòèToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ âèð³çàòèToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ âñòàâèòèToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ôîðìàòToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ øðèôòToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ äèçàéíToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ôîíToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ äîâ³äêàToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^ ³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem;
+	private: System::Windows::Forms::ContextMenuStrip^ contextMenuStrip1;
+	private: System::Windows::Forms::ToolStripMenuItem^ âèð³çàòèToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ êîï³þâàòèToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ âñòàâèòèToolStripMenuItem1;
+	private: System::Windows::Forms::ToolStripMenuItem^ øðèôòToolStripMenuItem1;
+	private: System::Windows::Forms::ColorDialog^ colorDialog1;
+	private: System::Windows::Forms::FontDialog^ fontDialog1;
+	private: System::Windows::Forms::OpenFileDialog^ openFileDialog1;
+	private: System::Windows::Forms::SaveFileDialog^ saveFileDialog1;
+	private: System::Windows::Forms::PrintDialog^ printDialog1;
+
+
 	private: System::ComponentModel::IContainer^ components;
 	protected:
 
@@ -112,13 +140,40 @@ namespace p5 {
 			this->toolStripStatusLabel2 = (gcnew System::Windows::Forms::ToolStripStatusLabel());
 			this->timer1 = (gcnew System::Windows::Forms::Timer(this->components));
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
+			this->ôàéëToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ñòâîðèòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->â³äêðèòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->çáåðåãòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->çáåðåãòèßêToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->äðóêToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->toolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ïàíåëüToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ðÿäîêÑòàíóToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->ïàíåë³²íñòðóìåíò³âToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ïðàâêàToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->êîï³þâàòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->âèð³çàòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->âñòàâèòèToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ôîðìàòToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->øðèôòToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->äèçàéíToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ôîíToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->äîâ³äêàToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->contextMenuStrip1 = (gcnew System::Windows::Forms::ContextMenuStrip(this->components));
+			this->âèð³çàòèToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->êîï³þâàòèToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->âñòàâèòèToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->øðèôòToolStripMenuItem1 = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->colorDialog1 = (gcnew System::Windows::Forms::ColorDialog());
+			this->fontDialog1 = (gcnew System::Windows::Forms::FontDialog());
+			this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
+			this->saveFileDialog1 = (gcnew System::Windows::Forms::SaveFileDialog());
+			this->printDialog1 = (gcnew System::Windows::Forms::PrintDialog());
 			this->toolStrip1->SuspendLayout();
 			this->statusStrip1->SuspendLayout();
 			this->menuStrip1->SuspendLayout();
+			this->contextMenuStrip1->SuspendLayout();
 			this->SuspendLayout();
 			// 
 			// toolStrip1
@@ -376,12 +431,56 @@ namespace p5 {
 			// menuStrip1
 			// 
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
-			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->toolStripMenuItem1 });
+			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(6) {
+				this->ôàéëToolStripMenuItem1,
+					this->toolStripMenuItem1, this->ïðàâêàToolStripMenuItem, this->ôîðìàòToolStripMenuItem, this->äèçàéíToolStripMenuItem, this->äîâ³äêàToolStripMenuItem
+			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Size = System::Drawing::Size(799, 28);
 			this->menuStrip1->TabIndex = 3;
 			this->menuStrip1->Text = L"menuStrip1";
+			// 
+			// ôàéëToolStripMenuItem1
+			// 
+			this->ôàéëToolStripMenuItem1->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(5) {
+				this->ñòâîðèòèToolStripMenuItem,
+					this->â³äêðèòèToolStripMenuItem, this->çáåðåãòèToolStripMenuItem, this->çáåðåãòèßêToolStripMenuItem, this->äðóêToolStripMenuItem
+			});
+			this->ôàéëToolStripMenuItem1->Name = L"ôàéëToolStripMenuItem1";
+			this->ôàéëToolStripMenuItem1->Size = System::Drawing::Size(59, 24);
+			this->ôàéëToolStripMenuItem1->Text = L"Ôàéë";
+			// 
+			// ñòâîðèòèToolStripMenuItem
+			// 
+			this->ñòâîðèòèToolStripMenuItem->Name = L"ñòâîðèòèToolStripMenuItem";
+			this->ñòâîðèòèToolStripMenuItem->Size = System::Drawing::Size(174, 26);
+			this->ñòâîðèòèToolStripMenuItem->Text = L"Ñòâîðèòè";
+			// 
+			// â³äêðèòèToolStripMenuItem
+			// 
+			this->â³äêðèòèToolStripMenuItem->Name = L"â³äêðèòèToolStripMenuItem";
+			this->â³äêðèòèToolStripMenuItem->Size = System::Drawing::Size(174, 26);
+			this->â³äêðèòèToolStripMenuItem->Text = L"Â³äêðèòè";
+			// 
+			// çáåðåãòèToolStripMenuItem
+			// 
+			this->çáåðåãòèToolStripMenuItem->Name = L"çáåðåãòèToolStripMenuItem";
+			this->çáåðåãòèToolStripMenuItem->Size = System::Drawing::Size(174, 26);
+			this->çáåðåãòèToolStripMenuItem->Text = L"Çáåðåãòè";
+			// 
+			// çáåðåãòèßêToolStripMenuItem
+			// 
+			this->çáåðåãòèßêToolStripMenuItem->Name = L"çáåðåãòèßêToolStripMenuItem";
+			this->çáåðåãòèßêToolStripMenuItem->Size = System::Drawing::Size(174, 26);
+			this->çáåðåãòèßêToolStripMenuItem->Text = L"Çáåðåãòè ÿê";
+			// 
+			// äðóêToolStripMenuItem
+			// 
+			this->äðóêToolStripMenuItem->Name = L"äðóêToolStripMenuItem";
+			this->äðóêToolStripMenuItem->Size = System::Drawing::Size(174, 26);
+			this->äðóêToolStripMenuItem->Text = L"Äðóê";
+			this->äðóêToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::äðóêToolStripMenuItem_Click);
 			// 
 			// toolStripMenuItem1
 			// 
@@ -398,7 +497,7 @@ namespace p5 {
 					this->ïàíåë³²íñòðóìåíò³âToolStripMenuItem
 			});
 			this->ïàíåëüToolStripMenuItem->Name = L"ïàíåëüToolStripMenuItem";
-			this->ïàíåëüToolStripMenuItem->Size = System::Drawing::Size(224, 26);
+			this->ïàíåëüToolStripMenuItem->Size = System::Drawing::Size(140, 26);
 			this->ïàíåëüToolStripMenuItem->Text = L"Ïàíåë³";
 			// 
 			// ðÿäîêÑòàíóToolStripMenuItem
@@ -418,6 +517,122 @@ namespace p5 {
 			this->ïàíåë³²íñòðóìåíò³âToolStripMenuItem->Text = L"Ïàíåë³ ³íñòðóìåíò³â";
 			this->ïàíåë³²íñòðóìåíò³âToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ïàíåë³²íñòðóìåíò³âToolStripMenuItem_Click);
 			// 
+			// ïðàâêàToolStripMenuItem
+			// 
+			this->ïðàâêàToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->êîï³þâàòèToolStripMenuItem,
+					this->âèð³çàòèToolStripMenuItem, this->âñòàâèòèToolStripMenuItem
+			});
+			this->ïðàâêàToolStripMenuItem->Name = L"ïðàâêàToolStripMenuItem";
+			this->ïðàâêàToolStripMenuItem->Size = System::Drawing::Size(74, 24);
+			this->ïðàâêàToolStripMenuItem->Text = L"Ïðàâêà";
+			// 
+			// êîï³þâàòèToolStripMenuItem
+			// 
+			this->êîï³þâàòèToolStripMenuItem->Name = L"êîï³þâàòèToolStripMenuItem";
+			this->êîï³þâàòèToolStripMenuItem->Size = System::Drawing::Size(166, 26);
+			this->êîï³þâàòèToolStripMenuItem->Text = L"Êîï³þâàòè";
+			// 
+			// âèð³çàòèToolStripMenuItem
+			// 
+			this->âèð³çàòèToolStripMenuItem->Name = L"âèð³çàòèToolStripMenuItem";
+			this->âèð³çàòèToolStripMenuItem->Size = System::Drawing::Size(166, 26);
+			this->âèð³çàòèToolStripMenuItem->Text = L"Âèð³çàòè";
+			// 
+			// âñòàâèòèToolStripMenuItem
+			// 
+			this->âñòàâèòèToolStripMenuItem->Name = L"âñòàâèòèToolStripMenuItem";
+			this->âñòàâèòèToolStripMenuItem->Size = System::Drawing::Size(166, 26);
+			this->âñòàâèòèToolStripMenuItem->Text = L"Âñòàâèòè";
+			// 
+			// ôîðìàòToolStripMenuItem
+			// 
+			this->ôîðìàòToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->øðèôòToolStripMenuItem });
+			this->ôîðìàòToolStripMenuItem->Name = L"ôîðìàòToolStripMenuItem";
+			this->ôîðìàòToolStripMenuItem->Size = System::Drawing::Size(77, 24);
+			this->ôîðìàòToolStripMenuItem->Text = L"Ôîðìàò";
+			// 
+			// øðèôòToolStripMenuItem
+			// 
+			this->øðèôòToolStripMenuItem->Name = L"øðèôòToolStripMenuItem";
+			this->øðèôòToolStripMenuItem->Size = System::Drawing::Size(140, 26);
+			this->øðèôòToolStripMenuItem->Text = L"Øðèôò";
+			this->øðèôòToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::øðèôòToolStripMenuItem_Click);
+			// 
+			// äèçàéíToolStripMenuItem
+			// 
+			this->äèçàéíToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->ôîíToolStripMenuItem });
+			this->äèçàéíToolStripMenuItem->Name = L"äèçàéíToolStripMenuItem";
+			this->äèçàéíToolStripMenuItem->Size = System::Drawing::Size(75, 24);
+			this->äèçàéíToolStripMenuItem->Text = L"Äèçàéí";
+			// 
+			// ôîíToolStripMenuItem
+			// 
+			this->ôîíToolStripMenuItem->Name = L"ôîíToolStripMenuItem";
+			this->ôîíToolStripMenuItem->Size = System::Drawing::Size(121, 26);
+			this->ôîíToolStripMenuItem->Text = L"Ôîí";
+			this->ôîíToolStripMenuItem->Click += gcnew System::EventHandler(this, &MyForm::ôîíToolStripMenuItem_Click);
+			// 
+			// äîâ³äêàToolStripMenuItem
+			// 
+			this->äîâ³äêàToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem });
+			this->äîâ³äêàToolStripMenuItem->Name = L"äîâ³äêàToolStripMenuItem";
+			this->äîâ³äêàToolStripMenuItem->Size = System::Drawing::Size(77, 24);
+			this->äîâ³äêàToolStripMenuItem->Text = L"Äîâ³äêà";
+			// 
+			// ³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem
+			// 
+			this->³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem->Name = L"³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem";
+			this->³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem->Size = System::Drawing::Size(293, 26);
+			this->³íôîðìàö³ÿÏðîÐîçðîáíèêàToolStripMenuItem->Text = L"²íôîðìàö³ÿ ïðî ðîçðîáíèêà";
+			// 
+			// contextMenuStrip1
+			// 
+			this->contextMenuStrip1->ImageScalingSize = System::Drawing::Size(20, 20);
+			this->contextMenuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(4) {
+				this->âèð³çàòèToolStripMenuItem1,
+					this->êîï³þâàòèToolStripMenuItem1, this->âñòàâèòèToolStripMenuItem1, this->øðèôòToolStripMenuItem1
+			});
+			this->contextMenuStrip1->Name = L"contextMenuStrip1";
+			this->contextMenuStrip1->Size = System::Drawing::Size(153, 100);
+			// 
+			// âèð³çàòèToolStripMenuItem1
+			// 
+			this->âèð³çàòèToolStripMenuItem1->Name = L"âèð³çàòèToolStripMenuItem1";
+			this->âèð³çàòèToolStripMenuItem1->Size = System::Drawing::Size(152, 24);
+			this->âèð³çàòèToolStripMenuItem1->Text = L"Âèð³çàòè";
+			// 
+			// êîï³þâàòèToolStripMenuItem1
+			// 
+			this->êîï³þâàòèToolStripMenuItem1->Name = L"êîï³þâàòèToolStripMenuItem1";
+			this->êîï³þâàòèToolStripMenuItem1->Size = System::Drawing::Size(152, 24);
+			this->êîï³þâàòèToolStripMenuItem1->Text = L"Êîï³þâàòè";
+			// 
+			// âñòàâèòèToolStripMenuItem1
+			// 
+			this->âñòàâèòèToolStripMenuItem1->Name = L"âñòàâèòèToolStripMenuItem1";
+			this->âñòàâèòèToolStripMenuItem1->Size = System::Drawing::Size(152, 24);
+			this->âñòàâèòèToolStripMenuItem1->Text = L"Âñòàâèòè";
+			// 
+			// øðèôòToolStripMenuItem1
+			// 
+			this->øðèôòToolStripMenuItem1->Name = L"øðèôòToolStripMenuItem1";
+			this->øðèôòToolStripMenuItem1->Size = System::Drawing::Size(152, 24);
+			this->øðèôòToolStripMenuItem1->Text = L"Øðèôò";
+			// 
+			// openFileDialog1
+			// 
+			this->openFileDialog1->FileName = L"openFileDialog1";
+			this->openFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &MyForm::openFileDialog1_FileOk);
+			// 
+			// saveFileDialog1
+			// 
+			this->saveFileDialog1->FileOk += gcnew System::ComponentModel::CancelEventHandler(this, &MyForm::saveFileDialog1_FileOk);
+			// 
+			// printDialog1
+			// 
+			this->printDialog1->UseEXDialog = true;
+			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
@@ -430,12 +645,14 @@ namespace p5 {
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MyForm";
 			this->Text = L"MyForm";
+			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load_1);
 			this->toolStrip1->ResumeLayout(false);
 			this->toolStrip1->PerformLayout();
 			this->statusStrip1->ResumeLayout(false);
 			this->statusStrip1->PerformLayout();
 			this->menuStrip1->ResumeLayout(false);
 			this->menuStrip1->PerformLayout();
+			this->contextMenuStrip1->ResumeLayout(false);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -546,5 +763,29 @@ private: System::Void ðÿäîêÑòàíóToolStripMenuItem_CheckedChanged(System::Object 
 			   statusStrip1->Visible = false;
 		   }
 	   }
+private: System::Void MyForm_Load_1(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void øðèôòToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	fontDialog1->ShowDialog();
+	richTextBox1->SelectionFont = fontDialog1->Font;
+}
+private: System::Void äðóêToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	printDialog1->ShowDialog();
+}
+private: System::Void ôîíToolStripMenuItem_Click(System::Object^ sender, System::EventArgs^ e) {
+	colorDialog1->Color = richTextBox1->BackColor;
+	if (colorDialog1->ShowDialog() == Windows::Forms::DialogResult::OK)
+		richTextBox1->BackColor = colorDialog1->Color;
+}
+private: System::Void openFileDialog1_FileOk(System::Object^ sender, System::ComponentModel::CancelEventArgs^ e) {
+	openFileDialog1->Filter = "txt files (*.txt)|*.txt|rtf files (*.rtf)|*.rtf|All files (*.*) | *.*";
+		if (openFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK) {
+			System::Text::Encoding^ kod = System::Text::Encoding::GetEncoding(1251);
+			auto read = gcnew IO::StreamReader(openFileDialog1->FileName, kod);
+			richTextBox1->Text = read->ReadToEnd();
+		} this->Text += (openFileDialog1->FileName);
+}
+private: System::Void saveFileDialog1_FileOk(System::Object^ sender, System::ComponentModel::CancelEventArgs^ e) {
+}
 };
 }
